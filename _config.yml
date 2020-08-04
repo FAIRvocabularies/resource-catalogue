@@ -25,6 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   This is a template repository for resource catalogs. You can specialise it for your resource type.
 baseurl: "/resource-catalogue" # the subpath of your site, e.g. /blog
 url: "fairvocabularies.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+repo: "https://github.com/FAIRvocabularies/resource-catalogue"
 twitter_username: #alegonbel
 github_username:  #agbeltran
 
@@ -46,19 +47,24 @@ exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 
 
 # Defaults
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  -
-    scope:
-      path: "posts"
-      type: "posts"
-    values:
-      layout: "post"
+#defaults:
+#  -
+#    scope:
+#      path: ""
+#      type: "pages"
+#    values:
+#      layout: "page"
+#  -
+#    scope:
+#      path: "posts"
+#      type: "posts"
+#    values:
+#      layout: "post"
+
+collections:
+  resources:
+    output: true
+    permalink: /:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
