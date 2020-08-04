@@ -1,0 +1,25 @@
+---
+layout: default
+---
+{% assign resource = site.resources | where:"identifier", page.identifier | first %}
+
+<div>
+  <h1>{{ resource.title }}</h1>
+
+  <ul class="post-list">
+    <li> <span class="post-meta">IRI:</span> <a href="{{ resource.identifier }}">{{ resource.identifier }}</a> </li>
+    <li> <span class="post-meta">description:</span> {{ resource.description }} </li>
+    <li> <span class="post-meta">homepage:</span> <a href="{{ resource.homepage }}">{{ resource.homepage }}</a> </li>
+    <li> <span class="post-meta">language:</span> {{ resource.language }} </li>
+    <li> <span class="post-meta">license:</span> <a href="{{ resource.license }}">{{ resource.license }}</a> </li>
+    <li> <span class="post-meta">publisher:</span> {{ resource.publisher }} </li>
+    <li> <span class="post-meta">dct:publisher:</span>
+      <ul>
+        {% for item in resource.publisher %}
+        <li><a href="{{item.homepage}}">{{item.name}}</a></li>
+        {% endfor %}
+      </ul>
+    </li>
+  </ul>
+
+</div>
