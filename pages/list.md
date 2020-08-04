@@ -1,26 +1,16 @@
 ---
 title: Resource list
-tags: 
 description: List of all resources
 ---
 
 # Resources list
 
+{% for resource in site.resources %}
 
-{% for resource in site.data %}{% if meeting[0] != "toc" and meeting[0] != "navigation" %}
+<a href="{{ resource.url | prepend: site.baseurl }}">
+  {{ resource.title }}
+</a>
 
-{% if resource[1].link %}<a href="{{ meeting[1].link }}" target="_blank"><button style="float:right" class="btn btn-sm btn-primary">Website</button></a>{% endif %}<a target="_blank" href="{{ site.tag_search_endpoint }}{{ meeting[1].name }}"><button style="float:right; margin-right:10px; margin-bottom:20px" class="btn btn-sm btn-primary">Search</button></a>
+<p class="post-excerpt">{{ resource.description | truncate: 160 }}</p>
 
-<h3>{{ meeting[1].name }}</h3>
-
-{% if meeting[1].next %}<p style="font-style:italic">When is the next meeting?</p>
- - **Location**: {{ meeting[1].next.location }}
- - **Data From**: {{ meeting[1].next.date-from }}
- - **Data To**: {{ meeting[1].next.date-to }}
-{% endif %}
-
-<a href="{{ site.repo }}/edit/master/_data/{{ meeting[0] }}.yml" target="_blank"><i class="fa fa-edit fa-fw"></i> Edit this entry</a>
-{% endif %}
-<br>
-<hr>
-<br>{% endfor %}
+{% endfor %}  
