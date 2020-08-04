@@ -8,7 +8,7 @@ contactPoint: ""
 hasPolicy: ""
 isReferencedBy: ""
 keyword: "accountability"
-landingPage: http://example.org/dataset-001.html
+landingPage: "http://example.org/dataset-001.html"
 license: ""
 language: http://id.loc.gov/vocabulary/iso639-1/en
 relation: ""

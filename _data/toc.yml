@@ -1,9 +1,7 @@
 - title: Documentation
-  url: docs
-  links:    
-    - title: "Table"
-      url: "docs/table"
+  url: ""
+  links:
+    - title: "Home"
+      url: ""
     - title: "About"
       url: "about"
-    - title: "News"
-      url: "news"
