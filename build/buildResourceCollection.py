@@ -1,7 +1,7 @@
 import os
 
 def main():
-    directory = "_data/resources"
+    directory = os.path.join("_data", "resources")
     for filename in os.listdir(directory):
         if filename.endswith(".yml"):
             #print(os.path.join(directory, filename))
