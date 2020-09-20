@@ -23,10 +23,10 @@ email: alejandra.gonzalez.beltran@gmail.com
 author: Alejandr Gonzalez-Beltran
 description: >- # this means to ignore newlines until "baseurl:"
   This is a template repository for resource catalogs. You can specialise it for your resource type.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/resource-catalogue" # the subpath of your site, e.g. /blog
 url: "fairvocabularies.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: alegonbel
-github_username:  agbeltran
+twitter_username: #alegonbel
+github_username:  #agbeltran
 
 # Should there be feedback buttons at the bottom of pages?
 feedback: true
