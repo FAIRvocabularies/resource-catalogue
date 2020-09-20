@@ -31,7 +31,7 @@ description: Table with all the resources
     </tr>
   </thead>
   <tbody>
-  {% for resourceArray in site.data.resources %}
+  {% for resourceArray in site.resources %}
   {% assign resource = resourceArray[1] %}
     <tr>
       <td>

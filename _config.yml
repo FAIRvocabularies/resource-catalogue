@@ -45,6 +45,8 @@ permalink: /:year/:title/
 markdown: kramdown
 exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 
+port: 3000 # change server port to 3000
+
 
 # Defaults
 #defaults:
@@ -64,7 +66,7 @@ exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 collections:
   resources:
     output: true
-    permalink: /:path/
+    permalink: /:collection/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.

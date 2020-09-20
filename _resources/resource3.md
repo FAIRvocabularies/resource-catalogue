@@ -1,11 +1,12 @@
-title: Resource 4 title
+---
+title: Resource 3 title
 accessRights: 
 conformsTo: 
 contactPoint:
 creator: ex:finance-employee-001
 description: another description
 hasPolicy:
-identifier: id04
+identifier: id03
 isReferencedBy:
 keyword: "accountability"
 landingPage: http://example.org/dataset-001.html
@@ -21,3 +22,6 @@ type:
 modified: "2011-12-15"
 qualifiedAttribution:
 
+
+layout: resource
+---
