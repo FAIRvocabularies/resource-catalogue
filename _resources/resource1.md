@@ -1,3 +1,4 @@
+---
 title: Resource 1 title
 creator: finance-employee-001
 description: some description
@@ -20,3 +21,4 @@ theme: ""
 type: ""
 modified: "2011-12-15"
 qualifiedAttribution: ""
+---

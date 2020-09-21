@@ -44,6 +44,12 @@ permalink: /:year/:title/
 markdown: kramdown
 exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 
+port: 3000
+
+collections:
+  resources:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:

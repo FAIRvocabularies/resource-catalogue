@@ -1,3 +1,4 @@
+---
 title: Resource 4 title
 accessRights: 
 conformsTo: 
@@ -20,4 +21,4 @@ theme:
 type:
 modified: "2011-12-15"
 qualifiedAttribution:
-
+---

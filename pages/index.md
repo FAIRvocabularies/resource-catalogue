@@ -15,13 +15,13 @@ description: Table with all the resources
     <th>Description</th>    
     </tr>
     </thead>
-    <tbody>{% for resource in site.data %}
-    <tr>
-    <td>{% if resource[1].landingPage %}<a href="{{ resource[0].landingPage }}" target="_blank">{{ resource[1].title }}</a>{% else %}{{ resource[1].title }}{% endif %}</td>
-    <td>{{ resource[1].identifier }}</td>
-    <td>{{ resource[1].creator }}</td>
-    <td>{{ resource[1].description }}</td>
-    </tr>
+    <tbody>{% for resource in site.resources %}
+        <tr>
+        <td>{% if resource.landingPage %}<a href="{{ resource.landingPage }}" target="_blank">{{ resource.title }}</a>{% else %}{{ resource.title }}{% endif %}</td>
+        <td>{{ resource.identifier }}</td>
+        <td>{{ resource.creator }}</td>
+        <td>{{ resource.description }}</td>
+        </tr>
     {% endfor %}
 </tbody>
 </table>
