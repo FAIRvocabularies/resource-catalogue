@@ -50,6 +50,7 @@ port: 3000
 collections:
   resources:
     output: true
+    sort_by: name
     permalink: /:collection/:path/
 
 # Defaults

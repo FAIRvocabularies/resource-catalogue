@@ -17,11 +17,10 @@ description: Table with all the resources
     </tr>
   </thead>
   <tbody>
-  {% for resourceArray in site.resources %}
-  {% assign resource = resourceArray[1] %}
+  {% for resource in site.resources %}
     <tr>
       <td>
-        <a href="{{ resourceArray[0] }}">{{ resource.title }}</a>
+        <a href="{{ resource.url | prepend: site.baseurl }}">{{ resource.title }}</a>
       </td>
       <td>{{ resource.identifier }}</td>
       <td>{{ resource.creator }}</td>
@@ -29,6 +28,8 @@ description: Table with all the resources
         <td>
           {% if resource.landingPage %}
             <a href="{{ resource.landingPage }}">Visit <i class="fa fa-external-link" aria-hidden="true"></i></a>
+
+            <p>{{ staff_member.content | markdownify }}</p>
           {% endif %}
         </td>
     </tr>

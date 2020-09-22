@@ -8,6 +8,7 @@ If you want to build a catalogue of resources, which you can host on Github, you
 
 1. Fork this repository
 1. Change the name of the fork repository to the name of your catalogue
+1. Modify the [About page](about.md) to describe your own resource catalogue.
 1. For each resource you want to add to your catalogue: 
     1. make a copy of the template for resource descriptions: [resource_template.yml_](./_data/resource_template.yml_)
     1. rename the file with the resource name and change the extension to ```yml```

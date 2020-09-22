@@ -21,4 +21,6 @@ theme: ""
 type: ""
 modified: "2011-12-15"
 qualifiedAttribution: ""
+
+layout: resource
 ---
