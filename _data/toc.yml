@@ -1,9 +1,9 @@
-- title: Documentation
-  url: docs
-  links:    
+- title: Catalogue
+  url: ""
+  links:
     - title: "Table"
-      url: "docs/table"
+      url: ""
+    - title: "List"
+      url: "list"
     - title: "About"
       url: "about"
-    - title: "News"
-      url: "news"
