@@ -4,7 +4,7 @@ creator: finance-employee-001
 description: some description
 identifier: id01
 accessRights: ""
-conformsTo: ""
+conformsTo: "DCAT"
 contactPoint: ""
 hasPolicy: ""
 isReferencedBy: ""
