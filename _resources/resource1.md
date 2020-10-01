@@ -10,7 +10,7 @@ hasPolicy: ""
 isReferencedBy: ""
 keyword: "accountability"
 landingPage: "http://example.org/dataset-001.html"
-license: ""
+license: "CC-BY"
 language: http://id.loc.gov/vocabulary/iso639-1/en
 relation: ""
 rights: ""
