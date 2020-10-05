@@ -1,6 +1,6 @@
 ---
 title: Bioportal
-creator: https://orcid.org/0000-0001-6875-5360
+creator: https://orcid.org/0000-0003-3325-793X
 description: the world's most comprehensive repository of biomedical ontologies
 identifier: id05
 accessRights: ""
