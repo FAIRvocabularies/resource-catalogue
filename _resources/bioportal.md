@@ -11,9 +11,12 @@ isReferencedBy: ""
 keyword: ontology
 keyword: biomedical
 landingPage: https://bioportal.bioontology.org/
-license: "CC-BY"
+license: https://creativecommons.org/licenses/by/4.0/
 language: http://id.loc.gov/vocabulary/iso639-1/en
-relation: "http://agroportal.lirmm.fr/"
+relation: http://agroportal.lirmm.fr/
+relation: http://bioportal.lirmm.fr/
+relation: http://medportal.bmicc.cn/
+relation: http://ecoportal.lifewatchitaly.eu/
 rights: ""
 qualifiedRelation: ""
 publisher:  ""
