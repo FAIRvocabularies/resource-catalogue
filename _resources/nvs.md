@@ -32,6 +32,6 @@ modified: 2020-10-05
 qualifiedAttribution: ""
 endpointURL: https://vocab.nerc.ac.uk/sparql/
 
-layout: service
+layout: resource
 ---
 
