@@ -1,7 +1,7 @@
 ---
 title: Research Vocabularies Australia
 creator: ANDS
-description: >
+description: |
 A service built on sharing
 Research Vocabularies Australia helps you find, access, and reuse vocabularies for research. Some vocabularies are hosted by the Australian Research Data Commons (ARDC) and can be accessed directly through Research Vocabularies Australia. Otherwise Research Vocabularies Australia provides a link to the vocabulary owner’s web page.
 
