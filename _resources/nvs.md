@@ -1,12 +1,12 @@
 ---
 title: NERC Vocabulary Service
 creator: Roy Lowry
-description: >
-The NERC Vocabulary Server provides access to lists of standardised terms that cover a broad spectrum of disciplines of relevance to the oceanographic and wider community.
+description: |
+  The NERC Vocabulary Server provides access to lists of standardised terms that cover a broad spectrum of disciplines of relevance to the oceanographic and wider community.
 
-Using standardised sets of terms (otherwise known as "controlled vocabularies") in metadata and to label data solves the problem of ambiguities associated with data markup and also enables records to be interpreted by computers. This opens up data sets to a whole world of possibilities for computer aided manipulation, distribution and long term reuse.
+  Using standardised sets of terms (otherwise known as "controlled vocabularies") in metadata and to label data solves the problem of ambiguities associated with data markup and also enables records to be interpreted by computers. This opens up data sets to a whole world of possibilities for computer aided manipulation, distribution and long term reuse.
 
-All of the vocabularies are fully versioned and a permanent record is kept of all changes made.
+  All of the vocabularies are fully versioned and a permanent record is kept of all changes made.
 identifier: id06
 accessRights: ""
 conformsTo: "DCAT"
